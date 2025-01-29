@@ -1,0 +1,225 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+ }
+
+ body{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+ }
+.nav{
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 400;
+  
+}
+
+ a{
+    text-decoration: none;
+    color: black;
+
+ }
+ .a1{
+    color: #10bc69;
+ }
+
+ li {
+    display: inline-block;
+    margin-left: 80px; 
+ width: 5px; 
+}
+
+
+
+ .nav-logo,.nav-links{
+    display: inline-block;
+ }
+ .nav-logo img{
+    width: 70px;
+    margin-left: 40px;
+ }
+ 
+ .nav-links{
+    margin-left: 45%;
+
+ }
+
+
+ .btn{
+    border-radius: 30px;
+    padding: 2px;
+    width: 80px;
+    font-family: 'Raleway';
+    font-weight:  400;
+    background-color: #10bc69;
+    color: #ffffff;
+    border-color: #ffffff;
+ }
+
+/* ............home.................................... */
+
+.home-div2 img{
+    width: 400px;
+    height: 400px;
+    margin-left: 50%;
+}
+.homepage{
+display: flex; 
+margin-top: 40px;   
+}
+
+.homepage .home-div1{
+    margin-left: 40px;
+    margin-top: 50px;
+    width: 40%;
+    
+}
+
+.homepage .home-div1 h1{
+    color: #5f687b;
+    margin-top: 40px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700; 
+    font-size: 33px;
+    margin-left: 40px;
+}
+
+.home-div1 p{
+    margin-left: 30px;
+}
+.home-div1-btn{
+border-radius: 30px;
+background-color: #10bc69;
+color: #ffffff;
+border-color: #ffffff;
+padding: 5px;
+margin-left: 40px;
+font-family: 'Raleway';
+font-weight:  400;
+
+
+}
+/* .....................about................................... */
+.about{
+    width: 60%;
+    margin-left: 20%;
+}
+
+.about h1{
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700; 
+    color: #5f687b;
+    margin-top: 50px;
+
+}
+
+/* ............................................... */
+
+.Services{
+    padding: 50px;
+    text-align: center;
+    background-color: aliceblue;
+}
+.Services h1{
+    /* font-size: 3rem; */
+    color: #5f687b;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700; /* Bold */
+
+}
+
+
+.Services-info{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(280px,1fr));
+    gap: 20px;
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.Services-info1 h2,.Services-info2 h2,.Services-info3 h2,.Services-info4 h2,.Services-info5 h2,.Services-info6 h2{
+    color: #5f687b;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700; /* Bold */
+}
+
+
+.Services-info1 img,.Services-info2 img,.Services-info3 img,.Services-info4 img,.Services-info5 img,.Services-info6 img{
+    width: 40px;
+}
+
+
+.Services-info1 ,.Services-info2 ,.Services-info3 ,.Services-info4 ,.Services-info5 ,.Services-info6 {
+background-color:  #ffffff;
+padding: 20px;
+}
+
+.Services-info1 p,.Services-info2 p,.Services-info3 p,.Services-info4 p,.Services-info5 p,.Services-info6 p{
+    font-size: 14px;
+}
+/* ............................................ */
+
+.Portfolio h1,p{
+    text-align: center;
+}
+.Portfolio h1{
+    color: #5f687b;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700; 
+
+}
+.Portfolio-logos{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(280px,1fr));
+    gap: 20px;
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.Portfolio-logos1 img,.Portfolio-logos2 img,.Portfolio-logos3 img,.Portfolio-logos4 img,.Portfolio-logos5 img,.Portfolio-logos6 img,.Portfolio-logos7 img,.Portfolio-logos8 img,.Portfolio-logos9 img,.Portfolio-logos10 img,.Portfolio-logos11 img,.Portfolio-logos12 img{
+    width: 90%;
+}
+
+/* ............................................. */
+
+.action{
+
+background-color:  #10bc69;
+padding: 30px;
+}
+
+.action h2{
+    color: #ffffff;
+    text-align: center;
+padding: 30px;
+font-family: 'Raleway', sans-serif;
+font-weight: 700; 
+}
+.action p{
+    color: #ffffff;
+    width: 50%;
+    margin-left: 26%;
+
+}
+.action-btn{
+    border-radius: 20px;
+    margin-left: 45%;
+    color: #ffffff;
+    background-color: #10bc69;
+    border-color: #ffffff;
+    margin-top: 20px;
+    font-size: 15px;
+}
+
+/* .......................................... */
+.footer-div img{
+    margin-left: 46%;
+    width: 7%;
+    margin-top: 30px;
+}
+.footer-div hr{
+    color: rgb(240, 248, 255);
+}
